@@ -1,3 +1,10 @@
+local StarterGui = game:GetService("StarterGui")
+StarterGui:SetCore("SendNotification", {
+    Title = "A.F.A.S.3000™",
+    Text = "Gojo Moveset By NoName",
+    Icon = "rbxassetid://12285568530",
+    Duration = 3,
+})
 -- normal punch
 local animationId = 10468665991
 
